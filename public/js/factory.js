@@ -89,8 +89,12 @@ app.factory('pinFactory', function(){
 					var masterObj = masterArray[0];
 					// console.log(masterObj);
 					if(masterObj !== undefined){
-						pin.data.push(masterObj);
-						console.log(pin.data);
+						console.log(masterArray);
+						masterArray.forEach(function(scape){
+							pin.data.push(scape);
+						})
+						// pin.data.push(masterObj);
+						// console.log(pin.data);
 					};
 				};
 			});
