@@ -1,0 +1,10 @@
+#results{width:100%;
+		display:flex;
+		flex-flow: row wrap;}
+
+.songDiv{display:inline-block;
+		width:400px;
+		border:solid;}
+
+.info{border:solid;
+	height: 200px;}

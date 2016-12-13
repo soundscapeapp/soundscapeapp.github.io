@@ -1,0 +1,37 @@
+<div id="formDiv">
+<form>
+<input class="input" type="text" placeholder="Title of Soundscape" name="soundscapeTitle" ng-model="soundscape.title"><br/>
+
+<input  class="input" type="text" placeholder="Description" name="soundscapeDescription" ng-model="soundscape.description">
+
+
+
+<section ng-controller="data">
+
+<input class="input" type="text" ng-model="search" placeholder="Search for A Track"><br/>
+
+<button ng-click="findTracks(soundscape)">Search Tracks </button> <br/>
+
+<div id="displayBox">
+
+	<div ng-repeat="info in trackInfo track by $index" id="musicTracks">
+
+		<div id="individualTrack">
+
+			<a href="#/addScape" ng-click="grabSong(info, soundscape)"><img ng-src="{{info.image}}" width="75px"/>
+				<span> {{info.album}}</span>
+				<span> {{info.artist}}</span>
+				</a>
+		</div>
+	</div>
+</div>
+
+<p>{{denied}}</p>
+
+</section>
+<div id="submit">
+<a href="#/scapes"> <button type="submit" id="endButton" >Add to Soundscape</button> </a>
+</form>
+</div>
+
+</div>

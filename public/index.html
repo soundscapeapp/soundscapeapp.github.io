@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!--      JQUERY LINK-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+       
+    <!--      ANGULAR LINK-->
+    <script src="lib/angular.min.js"></script>
+    <script src="lib/angular-route.min.js"></script>
+   
+    <!-- GOOGLE MAPS SCRIPT -->
+    <script src="js/googleScript.js"></script>
+    
+    <!--    FONTS-->
+    <link href="https://fonts.googleapis.com/css?family=Galada|Lobster|Racing+Sans+One" rel="stylesheet">
+    <!--    CSS LINK-->
+    <!-- <link rel="stylesheet" type="text/css" href="css/style.css"> -->
+    <link rel="stylesheet" type="text/css" href="css/addscape.css">
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <link rel="stylesheet" type="text/css" href="css/map.css">
+    <link rel="stylesheet" type="text/css" href="css/scape.css">
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+
+</head>
+
+<body ng-app="soundscape">
+ 
+
+    <a href="#"><div id="title">
+        <h2>Soundscape</h2>
+    </div> </a>
+    
+     <ss-soundscape class="ng-hide">
+    </ss-soundscape>
+
+    <div id="description">
+        <h3>Share a moment through music.</h3>
+    </div>
+    
+    <div id="testNav">
+        <a href="#/scapes" class="nav">Scapes</a>
+        <a href="#/addScape" class="nav">Create Scape</a>
+    </div>
+
+    <div ng-view=""></div>
+
+  
+    <script src="js/route.js"></script>
+    <script src="js/dataCtrl.js"></script>
+    <script src="js/factory.js"></script>
+    <script src="js/setCtrl.js"></script>
+</body>
+
+</html>

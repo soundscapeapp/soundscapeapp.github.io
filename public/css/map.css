@@ -1,0 +1,49 @@
+/*MAP PROPERTIES*/
+
+#map {
+    width: 80%;
+    height: 500px;
+    border-radius: 5px;
+    left: 10%;
+    top: 120px;
+    box-shadow: -16px 7px 146px -22px black;
+}
+
+
+
+/*TITLE PROPERTIES*/
+
+#title {
+    position: relative;
+    letter-spacing: .1em;
+    width: 40%;
+    min-height: 30px;
+    padding: 5px;
+    color:rgb(230, 230, 230);
+    font-size: 3em;
+    font-family: Galada, cursive;
+    text-align: center;
+    left: 30%;
+}
+
+
+/*DESCRIPTION PROPERTIES*/
+
+#description {
+    position: relative;
+    left: 36%;
+    width: 30%;
+    text-align: center;
+    font-family: lobster, cursive;
+    color: rgba(61, 66, 67, 0.8);
+}
+
+#instructions{
+    position: relative;
+    left: 36%;
+    width: 30%;
+    text-align: center;
+    font-family:arial;
+    top: 30px;
+
+}

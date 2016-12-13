@@ -1,0 +1,91 @@
+/*GLOBAL PROPERTIES*/
+/*
+*{
+    margin: 0 auto;
+    padding:0;
+}
+*/
+
+/*BODY PROPERTIES*/
+
+body {
+    background-color: rgb(206, 222, 227);
+    font-family: arial; 
+}
+
+a {
+    color:rgb(74, 117, 130);
+    text-decoration: none;
+}
+
+
+ 
+/* DOES NOT APPEAR TO DO ANYTHING */
+/* TEST NAV PROPERTIES*/
+/*#testNav {
+    position: relative;
+    top: 30px;
+    left: 35%;
+    font-size: 1.5em;
+    width: 30%;
+    text-align: center;
+    font-family: Racing sans one, monospace;
+}
+*/
+/*NAV PROPERTIES*/
+/*.nav{
+    position: relative;
+    margin:10px;
+    padding: 5px;
+}
+.nav:hover { 
+    color: rgb(89, 89, 89);
+    
+}*/
+/* END OF DOES NOT APPEAR */
+
+/*.input{border-radius: 10px;
+  padding: 10px;
+  border: 1px solid #999;
+  border: inset 1px solid #333;
+  margin-bottom: 20px;
+}
+*/
+#formDiv{width:90%;
+margin-top: 70px;
+margin-right: auto;
+margin-left: auto;
+display:inline-block;
+}
+
+form{width:100%;
+/*    margin-left: auto ;
+    margin-right: auto ;
+    margin-left: 15%;
+}
+/*div{width:50%;
+float:left;}
+img{float:left;
+margin: 2%;}
+span{font-size: 12px;
+    font-family: arial;
+    float:left;}*/}
+
+#musicTracks {width:50%;
+    display:inline-block;
+
+            }
+img{float:left;}
+.individualTrack {display:inline-block;
+   
+    float:left;
+        }
+
+.songDiv {display:inline-block;
+        width:25%;
+        padding:25px;
+        margin-left:10px;}
+
+h1{font-size: 16px;}
+
+
