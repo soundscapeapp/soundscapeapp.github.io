@@ -11,7 +11,8 @@ app.config(function($routeProvider) {
         controller: "data"
     });
     $routeProvider.otherwise({
-        templateUrl: "views/map.html"    
+        templateUrl: "views/map.html",
+        controller: 'mapCtrl'    
      });
     
 });
