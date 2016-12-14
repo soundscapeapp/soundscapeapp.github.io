@@ -2,7 +2,7 @@ var app = angular.module('soundscape');
 
 app.controller('setController', [ '$scope', 'plStore', '$sce', 'pinFactory', function($scope, plStore, $sce, pinFactory) {
  	
-  alert('hello!')
+
   //calls master array from plStore
   var masterArray = plStore.fetchPl();
   
