@@ -87,7 +87,7 @@ app.controller('mapCtrl', [ '$scope', 'pinFactory', function($scope, pinFactory)
           var pinId = marker.data.id[0];
           pinFactory.setClicked(pinId);
           
-          document.location = 'http://127.0.0.1:8080/#/scapes';
+          document.location = 'https://soundscapeapp.github.io/public/#/scapes';
         }
       })(marker, i));
     }
