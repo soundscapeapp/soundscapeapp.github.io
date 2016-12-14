@@ -1,7 +1,7 @@
 var app = angular.module('soundscape');
 
 app.controller('setController', function($scope, plStore, $sce, pinFactory) {
- 	
+  
   //calls master array from plStore
   var masterArray = plStore.fetchPl();
   
@@ -40,10 +40,10 @@ app.controller('setController', function($scope, plStore, $sce, pinFactory) {
     // console.log(idArray);
     // console.log(idString);
     if(idArray[0] !== 'https'){
-    	// console.log('hey')
+      // console.log('hey')
     $scope.url = "https://embed.spotify.com/?uri=spotify%3Atrack%3A" + song.trackId;
     song.trackId = $sce.trustAsResourceUrl($scope.url);
-	};
+  };
 
   });
 
@@ -111,8 +111,8 @@ app.controller('mapCtrl', function($scope, pinFactory){
 });
 
 app.directive('ssSoundscape', function() {
-	return {
-		restrict: 'E',
-		templateUrl: 'templates/soundscape.html'
-	};
+  return {
+    restrict: 'E',
+    templateUrl: 'templates/soundscape.html'
+  };
 });

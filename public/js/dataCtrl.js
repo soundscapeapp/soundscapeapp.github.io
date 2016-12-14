@@ -16,6 +16,7 @@ app.controller('data', function($scope, $http, $timeout, plStore) {
 
       for(var i = 0; i < 10; i++) {
         var trackObj = {};
+         trackObj.trackName = trackArray.trackArray[i].name;
         trackObj.album = trackArray.trackArray[i].album.name;
         trackObj.artist = trackArray.trackArray[i].artists[0].name;
         trackObj.image = trackArray.trackArray[i].album.images[2].url;
@@ -27,6 +28,7 @@ app.controller('data', function($scope, $http, $timeout, plStore) {
 
   $scope.grabSong = function(info, soundscape) {
     var obj = {};
+    obj.trackName = info.trackName;
     obj.album = info.album;
     obj.artist = info.artist;
     obj.image = info.image;
