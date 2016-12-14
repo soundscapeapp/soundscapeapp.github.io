@@ -46,26 +46,28 @@ app.factory('pinFactory', function(){
 
 	var kingArray = [
 		{
-			id: 'apple',
+			id: 'Grand Circus Park',
 			data: []
 		},
 		{
-			id: 'orange',
-			data: [{album: "Dude Ranch",
-				artist: "blink-182",
-				description: "test 2",
-				image: "https://i.scdn.co/image/bcb1926bb327fe0189b28ff98f24ae505beaef74",
-				title: "orange",
-				trackId: "6WkSUgo1VdpzgtiXKlFPcY"}]
+			id: 'Belle Isle Aquarium',
+			data: []
+			// {album: "Dude Ranch",
+			// 	artist: "blink-182",
+			// 	description: "test 2",
+			// 	image: "https://i.scdn.co/image/bcb1926bb327fe0189b28ff98f24ae505beaef74",
+			// 	title: "orange",
+			// 	trackId: "6WkSUgo1VdpzgtiXKlFPcY"}
 		},
 		{
-			id: 'banana',
-			data:[{album: "Hello",
-				artist: "Adele",
-				description: "test",
-				image: "https://i.scdn.co/image/220fe5804f244f41aa216c4e3de17eafbf552341",
-				title: "banana",
-				trackId: "0ENSn4fwAbCGeFGVUbXEU3"}]
+			id: 'Campus Martius Park',
+			data:[] 
+			// {album: "Hello",
+			// 	artist: "Adele",
+			// 	description: "test",
+			// 	image: "https://i.scdn.co/image/220fe5804f244f41aa216c4e3de17eafbf552341",
+			// 	title: "banana",
+			// 	trackId: "0ENSn4fwAbCGeFGVUbXEU3"}
 		}
 	];
 	var pinObj = {};
