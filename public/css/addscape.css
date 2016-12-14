@@ -8,14 +8,18 @@
 			text-align: center;
 			}
 
-/*#formDiv {width:100%;
+#formDiv {width:100%;
 		border:solid;
-		margin-left: 10%;}*/
+		margin-right: auto;
+		margin-left:auto;}
 
-#inputField{width:40%;
+#wholeForm{border:solid;
+		width:90%;
+		margin:auto;}
+/*#inputField{width:40%;
 			border:solid;
 			display:inline-block;
-			float:left;}
+			float:left;}*/
 
 .input {width:300px;
 		border-radius: 5px;
@@ -24,29 +28,47 @@
 		border:1px solid #eeeeee;
 		padding:10px;
 		margin-bottom:10px;
-		margin-left: auto;
-		margin-right: auto;
+		margin-left: 37%;
+	
 		}
 #textDescription{height:100px;}
 
 
 
-#displayBox{width:55%;
+#displayBox{width:70%;
 			border:solid;
 		 	display: flex;
 		 /*	float:left;*/
 		 	flex-flow: row wrap;
-  			height: 300px;}
+  			height: 300px;
+  			margin-left:16%;}
 
 #individualTrack{border:solid;
-				display:inline-block;
-				float:left;
-				margin-left: 5%;
-			  width: 150px;  
-  			height: 100px; 
-  			padding:15px;
+				margin-left: 29%;
+			  width: 300px;  
+  				height: 100px; 
+  				padding:15px;
+  		/*	border:solid;*/
 }
 
-.trackInformation{float:left;}
+/*#individualTrack:only-child{margin-left:40%;}*/
+
+.trackInfo{
+    border: solid;
+    display: inline-block;
+    float: left;
+    left: 32%;
+    bottom: 82%;
+    position: relative;
+    max-width: 200px;
+    padding: 10px;
+    text-align: center;
+}
+
+#img{display: inline-block;
+	border:solid;
+    position: relative;
+    right: 10px;}
+
 
 #submit{float:clear;}
