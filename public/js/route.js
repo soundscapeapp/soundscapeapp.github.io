@@ -1,6 +1,6 @@
 var app = angular.module("soundscape", ["ngRoute"]);
 
-app.config( [ "$routeProvider",function($routeProvider) {
+app.config( [ "$routeProvider", function($routeProvider) {
     $routeProvider.when("/scapes", {
         templateUrl: "views/scapes.html",
         controller: "setController"

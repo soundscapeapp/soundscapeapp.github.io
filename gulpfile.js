@@ -4,7 +4,7 @@ var gulp = require('gulp');
 var minify = require('gulp-minify');
  
 gulp.task('compress', function() {
-  gulp.src('public/**.*.js')
+  gulp.src('public/**/*.js')
     .pipe(minify({
         ext:{
             src:'-debug.js',
