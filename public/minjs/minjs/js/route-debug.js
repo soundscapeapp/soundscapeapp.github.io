@@ -1,0 +1,1 @@
+var app=angular.module("soundscape",["ngRoute"]);app.config(["$routeProvider",function(e){e.when("/scapes",{templateUrl:"views/scapes.html",controller:"setController"}),e.when("/addScape",{templateUrl:"views/addScape.html",controller:"data"}),e.otherwise({templateUrl:"views/map.html",controller:"mapCtrl"})}]),app.config(["$sceProvider",function(e){e.enabled(!1)}]);
