@@ -60,7 +60,7 @@ app.factory('pinFactory', function(){
 			// 	trackId: "6WkSUgo1VdpzgtiXKlFPcY"}
 		},
 		{
-			id: 'Campus Martius Park',
+			id: 'Eastern Market',
 			data:[] 
 			// {album: "Hello",
 			// 	artist: "Adele",

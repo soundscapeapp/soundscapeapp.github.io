@@ -4,14 +4,14 @@ app.controller('mapCtrl', function($scope, pinFactory){
 
   function initMap() {
     var map = new google.maps.Map(document.getElementById('map'), {
-      center: {lat: -34.397, lng: 150.644},
-      zoom: 18
+      center: {lat: 42.339734, lng: -83.013477},
+      zoom: 13
     });
 
     var locations = [
       [ 'Grand Circus Park', 42.3356937, -83.0498165 ],
       ['Belle Isle Aquarium', 42.3367071, -82.9863983 ],
-      ['Campus Martius Park', 42.3316908, -83.0488209 ]
+      ['Eastern Market', 42.3485333, -83.0414262 ]
     ];
 
     var markers = [];
@@ -36,21 +36,21 @@ app.controller('mapCtrl', function($scope, pinFactory){
       })(marker, i));
     }
 
-    if (navigator.geolocation) {
-      navigator.geolocation.getCurrentPosition(function(position) {
-        var pos = {
-          lat: position.coords.latitude,
-          lng: position.coords.longitude
-        };
-        console.log(pos);
-        map.setCenter(pos);
-      }, function() {
-        handleLocationError(true, infoWindow, map.getCenter());
-      });
-    } else {
-      // Browser doesn't support Geolocation
-      handleLocationError(false, infoWindow, map.getCenter());
-    }
+    // if (navigator.geolocation) {
+    //   navigator.geolocation.getCurrentPosition(function(position) {
+    //     var pos = {
+    //       lat: position.coords.latitude,
+    //       lng: position.coords.longitude
+    //     };
+    //     console.log(pos);
+    //     map.setCenter(pos);
+    //   }, function() {
+    //     handleLocationError(true, infoWindow, map.getCenter());
+    //   });
+    // } else {
+    //   // Browser doesn't support Geolocation
+    //   handleLocationError(false, infoWindow, map.getCenter());
+    // }
   }
 
   initMap();
