@@ -86,25 +86,12 @@ app.controller('mapCtrl', [ '$scope', 'pinFactory', function($scope, pinFactory)
           console.log(marker.data.id[0]);
           var pinId = marker.data.id[0];
           pinFactory.setClicked(pinId);
+          
+          document.location = 'https://soundscapeapp.github.io/public/#/scapes';
         }
       })(marker, i));
     }
 
-    // if (navigator.geolocation) {
-    //   navigator.geolocation.getCurrentPosition(function(position) {
-    //     var pos = {
-    //       lat: position.coords.latitude,
-    //       lng: position.coords.longitude
-    //     };
-    //     console.log(pos);
-    //     map.setCenter(pos);
-    //   }, function() {
-    //     handleLocationError(true, infoWindow, map.getCenter());
-    //   });
-    // } else {
-    //   // Browser doesn't support Geolocation
-    //   handleLocationError(false, infoWindow, map.getCenter());
-    // }
   }
 
   initMap();
