@@ -2,7 +2,7 @@ var app = angular.module('soundscape');
 
   //used on AddScapes view aka Constructor. 
 app.controller('data', [ "$scope", "$http", "$timeout", "plStore", function($scope, $http, $timeout, plStore) {
-
+ $scope.banana = true;
   // user clicks 'search' button
   $scope.findTracks = function(userInput) {
     $scope.trackInfo = [];
@@ -24,6 +24,8 @@ app.controller('data', [ "$scope", "$http", "$timeout", "plStore", function($sco
         $scope.trackInfo.push(trackObj);
       };
     }, 250);
+
+    $scope.banana = false;
   }
 
   $scope.grabSong = function(info, soundscape) {

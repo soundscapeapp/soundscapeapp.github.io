@@ -12,6 +12,13 @@
             width:40%;
             position: relative;
             margin: auto;
+           /* border:solid;*/
+            border:1px #eeeeee;
+            top:40px;
+            text-align: center;
+            font-family: roboto;
+            font-weight: 400;
+            bottom:20px;
             }
 
 #formDiv {width:100%;
@@ -102,3 +109,5 @@
     margin-left: 36%;}
 
 #musicTracks{height:189px;}
+
+#placeholder{font-size: 20px;}

@@ -21,7 +21,7 @@
 
 <button class="input" ng-click="findTracks(soundscape)">Search Tracks </button> <br/>
 
-<div id="displayBox">
+<div id="displayBox" ng-hide="banana">
 
 	<div ng-repeat="info in trackInfo track by $index" id="musicTracks" >
 

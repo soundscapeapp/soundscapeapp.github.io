@@ -5,7 +5,7 @@
     height: 450px;
     border-radius: 5px;
     left: 10%;
-    top: 30px;
+/*    top: 30px;*/
     box-shadow: -16px 7px 146px -22px black;
 }
 
@@ -29,6 +29,7 @@ position: relative;
     margin: auto;
     width: 30%;
     text-align: center;
+    color:rgba(237, 237, 237, 0.87);
 
 }
 
