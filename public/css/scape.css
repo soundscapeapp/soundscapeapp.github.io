@@ -4,7 +4,7 @@
 		border:solid;}
 
 #songDiv{    display: inline-block;
-    width: 700px;
+    width: 400px;
    
     border: solid;
 /*    position: relative;
@@ -15,12 +15,13 @@
 }
 
 .info{
-	    height: 378px;
+	height: 150px;
+	max-height: 150px;
 	width:400px;
-	
-background-color: white;
+background-color: rgba(237, 237, 237, 0.5);
 overflow:auto;
-float:left;
+
+
 }
 
 
@@ -35,4 +36,4 @@ float:left;
     margin-bottom: 4%;}
 
 h1{text-align: center;}
-iframe{width:300px}
+iframe{width:400px}
