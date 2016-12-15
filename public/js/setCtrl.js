@@ -3,6 +3,7 @@ var app = angular.module('soundscape');
 app.controller('setController', [ '$scope', 'plStore', '$sce', 'pinFactory', function($scope, plStore, $sce, pinFactory) {
  	
 
+
   //calls master array from plStore
   var masterArray = plStore.fetchPl();
   
@@ -13,6 +14,10 @@ app.controller('setController', [ '$scope', 'plStore', '$sce', 'pinFactory', fun
   //most recently clicked pin
   var clickedId = pinFactory.fetchClicked();
   // console.log(clickedId)
+
+  //sets a location display name on Scapes page using clickeId
+  $scope.displayId = clickedId;
+  console.log($scope.displayId);
  
 
 
@@ -21,7 +26,6 @@ app.controller('setController', [ '$scope', 'plStore', '$sce', 'pinFactory', fun
   
   kingArray.forEach(function(pin){
     if(pin.id === clickedId){
-        console.log("it's an apple!");
       $scope.targetArray = pin.data;
       // console.log(targetArray);
     }
