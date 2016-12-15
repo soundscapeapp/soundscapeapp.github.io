@@ -128,7 +128,7 @@ app.controller('mapCtrl', [ '$scope', 'pinFactory', function($scope, pinFactory)
           pinFactory.setClicked(pinId);
           
           document.location = 'https://soundscapeapp.github.io/public/#/scapes';
-         // document.location = "http://localhost:8080/#/scapes"
+         // document.location = "http://localhost:8080/#/scapes";
         }
       })(marker, i));
     }
