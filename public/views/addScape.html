@@ -1,4 +1,12 @@
 <div id="containerAddScape">
+    <a href="#"><div id="logoTitle">
+        <img src="imgs/logo2.svg"/>
+    </div> </a>
+
+ <div id="instruction">
+ Add your own Soundscape by filling in the information below!
+ </div>   
+
 <div id="formDiv">
 <form  id="wholeForm">
 <input class="input" type="text" placeholder="Title of Soundscape" name="soundscapeTitle" ng-model="soundscape.title"><br/>
@@ -15,7 +23,7 @@
 
 <div id="displayBox">
 
-	<div ng-repeat="info in trackInfo track by $index" id="musicTracks">
+	<div ng-repeat="info in trackInfo track by $index" id="musicTracks" >
 
 		<div id="individualTrack">
 

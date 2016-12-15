@@ -1,10 +1,38 @@
 #results{width:100%;
 		display:flex;
-		flex-flow: row wrap;}
-
-.songDiv{display:inline-block;
-		width:400px;
+		flex-flow: row wrap;
 		border:solid;}
 
-.info{border:solid;
-	height: 200px;}
+#songDiv{    display: inline-block;
+    width: 700px;
+   
+    border: solid;
+/*    position: relative;
+    margin-left: 4%;*/
+    padding: 10px;
+    /*    margin-left: 16px;*/
+    margin: auto;
+}
+
+.info{
+	    height: 378px;
+	width:400px;
+	
+background-color: white;
+overflow:auto;
+float:left;
+}
+
+
+#placeLocation{    font-size: 36px;
+    font-weight: 600;
+    width: 40%;
+    position: relative;
+    margin: auto;
+    /* border: solid; */
+    text-align: center;
+    top: 30px;
+    margin-bottom: 4%;}
+
+h1{text-align: center;}
+iframe{width:300px}

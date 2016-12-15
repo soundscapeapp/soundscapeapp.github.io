@@ -49,17 +49,17 @@ app.factory('pinFactory', function(){
 			id: 'Grand Circus Park',
 			data: [
 			{
-				album: "Number 1's",
-				artist: "Stevie Wonder",
-				description: "1",
+				// album: "Number 1's",
+				// artist: "Stevie Wonder",
+				description: "orem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque aliquam non tortor rutrum finibus. Sed dictum est ex, fermentum iaculis nisl sodales et. Praesent non gravida neque. Pellentesque ante sem, convallis a sem a, volutpat venenatis nisi. Duis sed imperdiet sem. Cras in sagittis eros, sed mattis lacus. Mauris nisl nisi, semper auctor neque at, pretium feugiat massa. Suspendisse eu ultricies dui. Sed quis lectus sit am",
 				image: "https://i.scdn.co/image/a07dee541282f93ff3540d9cdfcbc6ff74c8a775",
-				title: "My GC Soundscapes!",
+				title: "My First GC!",
 				trackId: "583YTL8Fl6pCWtZAi2GvVZ",
 				trackName: "Living For The City"
 			}, 
 			{
-				album: "Let's Stay Together",
-				artist: "Al Green",
+				// album: "Let's Stay Together",
+				// artist: "Al Green",
 				description: "2",
 				image: "https://i.scdn.co/image/b8a23c49afc509cd15612f65d9b5cbe50987b21e",
 				title: "My GC Soundscapes!",
@@ -67,8 +67,8 @@ app.factory('pinFactory', function(){
 				trackName: "Let's Stay Together"
 			}, 
 			{
-				album: "Diana (Deluxe Edition)",
-				artist: "Diana Ross",
+				// album: "Diana (Deluxe Edition)",
+				// artist: "Diana Ross",
 				description: "3",
 				image: "https://i.scdn.co/image/8e5be5bcdb2de22326731fca99eb08a018660a8d",
 				title: "My GC Soundscapes!",
@@ -80,8 +80,8 @@ app.factory('pinFactory', function(){
 			id: 'Belle Isle Aquarium',
 			data: [
 			{
-				album: "An Awesome Wave",
-				artist: "alt-J",
+				// album: "An Awesome Wave",
+				// artist: "alt-J",
 				description: "1",
 				image: "https://i.scdn.co/image/f41e09137e95e85e1d644a335c6d8258429037ee",
 				title: "Aquarium Vibes",
@@ -89,8 +89,8 @@ app.factory('pinFactory', function(){
 				trackName: "Bloodflood"
 			},
 			{
-				album: "Dive",
-				artist: "Tycho",
+				// album: "Dive",
+				// artist: "Tycho",
 				description: "2",
 				image: "https://i.scdn.co/image/de8188980dc7ed522b5b07973c30b7ca0e35ca2d",
 				title: "Aquarium Vibes",
@@ -98,8 +98,8 @@ app.factory('pinFactory', function(){
 				trackName: "A Walk"
 			},
 			{
-				album: "Urban Flora EP",
-				artist: "Galimatias",
+				// album: "Urban Flora EP",
+				// artist: "Galimatias",
 				description: "3",
 				image: "https://i.scdn.co/image/94c352b50db31547670559dc18804029aa0d2bc0",
 				title: "Aquarium Vibes",
@@ -117,17 +117,17 @@ app.factory('pinFactory', function(){
 			id: 'Eastern Market',
 			data:[
 			{
-				album: "Brothers",
-				artist: "The Black Keys",
-				description: "1",
+				// album: "Brothers",
+				// artist: "The Black Keys",
+				description: "My favorite song forever",
 				image: "https://i.scdn.co/image/54e2288aacdd0681eaa22ee09b1d622a9c7ea532",
 				title: "Eastern Market Jams",
 				trackId: "2UE4m8egf0aREmOi47sDOk",
 				trackName: "Next Girl"
 			},
 			{
-				album: "Coda (Deluxe Edition)",
-				artist: "Led Zeppelin",
+				// album: "Coda (Deluxe Edition)",
+				// artist: "Led Zeppelin",
 				description: "2",
 				image: "https://i.scdn.co/image/6df40722c9a8b9b148c207cfaba961646030bc5a",
 				title: "Eastern Market Jams",
@@ -135,8 +135,8 @@ app.factory('pinFactory', function(){
 				trackName: "Hey Hey What Can I Do"
 			},
 			{
-				album: "Lazaretto",
-				artist: "Jack White",
+				// album: "Lazaretto",
+				// artist: "Jack White",
 				description: "3",
 				image: "https://i.scdn.co/image/e17bcc3059746a63a6437644c77978a721f0282a",
 				title: "Eastern Market Jams",

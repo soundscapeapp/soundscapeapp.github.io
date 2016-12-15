@@ -1,12 +1,18 @@
 #containerAddScape{width:100%;
 				/*border:solid;*/}
 
-#titleAndInfo{width:50%;
+/*#titleAndInfo{width:50%;
 		/*	border:solid;*/
-			font-size: 24px;
+		/*	font-size: 24px;
 			margin: 0 auto;
 			text-align: center;
-			}
+			}*/
+
+#instruction{font-size: 16px;
+            width:40%;
+            position: relative;
+            margin: auto;
+            }
 
 #formDiv {width:100%;
 		/*border:solid;*/
@@ -48,7 +54,7 @@
   			height: 300px;
   			margin-left:16%;
   			overflow:auto;
-  			background-color: #e6ffff}
+  			/*background-color: #e6ffff*/}
 
 #individualTrack{ /*   border: solid;*/
     margin-left: 21%;

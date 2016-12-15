@@ -21,8 +21,9 @@ app.controller('setController', [ '$scope', 'plStore', '$sce', 'pinFactory', fun
   
   kingArray.forEach(function(pin){
     if(pin.id === clickedId){
-      // console.log("it's an apple!")
+        console.log("it's an apple!");
       $scope.targetArray = pin.data;
+      // console.log(targetArray);
     }
   });
 
@@ -126,8 +127,8 @@ app.controller('mapCtrl', [ '$scope', 'pinFactory', function($scope, pinFactory)
           var pinId = marker.data.id[0];
           pinFactory.setClicked(pinId);
           
-          document.location = 'https://soundscapeapp.github.io/public/#/scapes';
-         // document.location = "http://localhost:8080/#/scapes"
+          // document.location = 'https://soundscapeapp.github.io/public/#/scapes';
+         document.location = "http://localhost:8080/#/scapes"
         }
       })(marker, i));
     }
