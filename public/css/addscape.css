@@ -1,34 +1,39 @@
 #containerAddScape{width:100%;
-				border:solid;}
+				/*border:solid;*/}
 
 #titleAndInfo{width:50%;
-			border:solid;
+		/*	border:solid;*/
 			font-size: 24px;
 			margin: 0 auto;
 			text-align: center;
 			}
 
 #formDiv {width:100%;
-		border:solid;
+		/*border:solid;*/
 		margin-right: auto;
 		margin-left:auto;}
 
-#wholeForm{border:solid;
+#wholeForm{
 		width:90%;
-		margin:auto;}
+		margin:auto;
+		position: relative;
+		top: 54px;}
 /*#inputField{width:40%;
 			border:solid;
 			display:inline-block;
 			float:left;}*/
 
-.input {width:300px;
-		border-radius: 5px;
-		-moz-border-radius:5px;
-		-webkit-border-radius:5px;
-		border:1px solid #eeeeee;
-		padding:10px;
-		margin-bottom:10px;
-		margin-left: 37%;
+.input {
+
+	width: 26%;
+    border-radius: 13px;
+    -moz-border-radius: 13px;
+    -webkit-border-radius: 13px;
+    border: 1px solid #eeeeee;
+    padding: 21px;
+    margin-bottom: 17px;
+    margin-left: 35%;
+}
 	
 		}
 #textDescription{height:100px;}
@@ -36,39 +41,58 @@
 
 
 #displayBox{width:70%;
-			border:solid;
+	border-radius: 5px;
 		 	display: flex;
 		 /*	float:left;*/
 		 	flex-flow: row wrap;
   			height: 300px;
-  			margin-left:16%;}
+  			margin-left:16%;
+  			overflow:auto;
+  			background-color: #e6ffff}
 
-#individualTrack{border:solid;
-				margin-left: 29%;
-			  width: 300px;  
-  				height: 100px; 
-  				padding:15px;
+#individualTrack{ /*   border: solid;*/
+    margin-left: 21%;
+    width: 300px;
+    height: 104px;
+    padding: 25px;
   		/*	border:solid;*/
 }
 
 /*#individualTrack:only-child{margin-left:40%;}*/
 
 .trackInfo{
-    border: solid;
+ background-color: white;
     display: inline-block;
     float: left;
-    left: 32%;
-    bottom: 82%;
+    left: 30%;
+    bottom: 101%;
     position: relative;
-    max-width: 200px;
+    width: 200px;
+    height: 81px;
     padding: 10px;
     text-align: center;
+   /* box-shadow: 5px 5px 5px #888888;*/
 }
 
 #img{display: inline-block;
-	border:solid;
+/*	border:solid;*/
     position: relative;
-    right: 10px;}
+    right: 10px;
+	/*box-shadow: 0px 5px 5px #888888;*/}
+
+#songName{font-size: 22px;
+		font-weight: 700;}
 
 
-#submit{float:clear;}
+#endButton{
+	 position: relative;
+    width: 26%;
+    border-radius: 13px;
+    -moz-border-radius: 13px;
+    -webkit-border-radius: 13px;
+    border: 1px solid #eeeeee;
+    padding: 21px;
+    margin-top: 42px;
+    margin-left: 36%;}
+
+#musicTracks{height:189px;}

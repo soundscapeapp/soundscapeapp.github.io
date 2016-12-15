@@ -3,7 +3,7 @@
 <form  id="wholeForm">
 <input class="input" type="text" placeholder="Title of Soundscape" name="soundscapeTitle" ng-model="soundscape.title"><br/>
 
-<input  class="input" type="text" placeholder="Description" name="soundscapeDescription" ng-model="soundscape.description">
+<input  class="input" type="textarea" placeholder="Description" name="soundscapeDescription" ng-model="soundscape.description">
 
 
 
@@ -20,11 +20,12 @@
 		<div id="individualTrack">
 
 			<!--grab song pulls from input boxes and individual track click-->
-			<a href="#/addScape" ng-click="grabSong(info, soundscape)" ><img ng-src="{{info.image}}" width="75px" id="img"/><br/>
+			<a href="#/addScape" ng-click="grabSong(info, soundscape)" ><img ng-src="{{info.image}}" width="100px" id="img"/><br/>
 				<div class="trackInfo">
-				<span >{{info.trackName}}</span><br/>
-				<span > {{info.album}}</span><br/>
-				<span > {{info.artist}}</span>
+				<span id="songName">{{info.trackName}}</span><br/>
+				<span id="songArtist" > {{info.artist}}</span><br/>
+			<!-- 	<span id="songAlbum"> {{info.album}}</span> -->
+				
 				</a>
 		</div>
 	</div>

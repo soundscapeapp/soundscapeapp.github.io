@@ -60,6 +60,45 @@ app.controller('mapCtrl', [ '$scope', 'pinFactory', function($scope, pinFactory)
     var map = new google.maps.Map(document.getElementById('map'), {
       center: {lat: 42.339734, lng: -83.013477},
       zoom: 13
+     ,styles:[
+  {
+    "featureType": "landscape.man_made",
+    "elementType": "geometry.fill",
+    "stylers": [
+      {
+        "color": "#d3f5ff"
+      }
+    ]
+  },
+  {
+    "featureType": "poi.park",
+    "elementType": "geometry.fill",
+    "stylers": [
+      {
+        "color": "#aeddc1"
+      }
+    ]
+  },
+  {
+    "featureType": "road.highway",
+    "elementType": "geometry.fill",
+    "stylers": [
+      {
+        "color": "#eff2ee"
+      }
+    ]
+  },
+  {
+    "featureType": "road.local",
+    "elementType": "geometry.fill",
+    "stylers": [
+      {
+        "color": "#7c84c7"
+      }
+    ]
+  }
+]
+
     });
 
     var locations = [
@@ -87,7 +126,8 @@ app.controller('mapCtrl', [ '$scope', 'pinFactory', function($scope, pinFactory)
           var pinId = marker.data.id[0];
           pinFactory.setClicked(pinId);
           
-          document.location = 'https://soundscapeapp.github.io/public/#/scapes';
+          // document.location = 'https://soundscapeapp.github.io/public/#/scapes';
+         document.location = "http://localhost:8080/#/scapes"
         }
       })(marker, i));
     }

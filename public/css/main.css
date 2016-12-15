@@ -1,6 +1,10 @@
 body {
-    background-image: url(gradient.jpg);
+    background-image: url(../imgs/yada.jpg);
+/*    background-repeat: no-repeat;*/
     font-family: arial; 
+    max-width:100%;
+    max-height: 100%;
+
 }
 
 a {

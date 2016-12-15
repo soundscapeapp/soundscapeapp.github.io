@@ -14,7 +14,7 @@ app.controller('data', [ "$scope", "$http", "$timeout", "plStore", function($sco
     $timeout(function() {
       var trackArray = plStore.fetchTrackList();
 
-      for(var i = 0; i < 10; i++) {
+      for(var i = 0; i < 24; i++) {
         var trackObj = {};
          trackObj.trackName = trackArray.trackArray[i].name;
         trackObj.album = trackArray.trackArray[i].album.name;
