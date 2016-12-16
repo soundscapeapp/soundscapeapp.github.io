@@ -27,15 +27,8 @@ app.controller('setController', [ '$scope', 'plStore', '$sce', 'pinFactory', fun
   kingArray.forEach(function(pin){
     if(pin.id === clickedId){
       $scope.targetArray = pin.data;
-      // console.log(targetArray);
     }
   });
-
-  // console.log($scope.targetArray)
-
-
-  // $scope.targetArray = plStore.fetchPl();
-  // console.log($scope.targetArray);
 
   
 
@@ -43,10 +36,7 @@ app.controller('setController', [ '$scope', 'plStore', '$sce', 'pinFactory', fun
   $scope.targetArray.forEach(function(song) {
     var idString = song.trackId;
     var idArray = idString.split(':')
-    // console.log(idArray);
-    // console.log(idString);
     if(idArray[0] !== 'https'){
-      // console.log('hey')
     $scope.url = "https://embed.spotify.com/?uri=spotify%3Atrack%3A" + song.trackId;
     song.trackId = $sce.trustAsResourceUrl($scope.url);
   };
@@ -141,7 +131,7 @@ app.controller('mapCtrl', [ '$scope', 'pinFactory', function($scope, pinFactory)
 
   initMap();
 
-//  
+
 }]);
 
 
