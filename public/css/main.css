@@ -1,7 +1,11 @@
 body {
-    background-image: url(../imgs/yada.jpg);
-    background-repeat: no-repeat;
-    font-family:Roboto;
+    background: linear-gradient(to right,
+      rgba(207, 115, 151, 1), 
+      rgba(171, 226, 213, 1)
+      );     
+     /*background-image: url(../imgs/yada.jpg);*/
+    background-repeat: repeat;
+    font-family: Roboto;
     max-width:100%;
     max-height: 100%;
 
