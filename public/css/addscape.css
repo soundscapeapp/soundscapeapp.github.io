@@ -1,12 +1,6 @@
 #containerAddScape{width:100%;
-				/*border:solid;*/}
+				}
 
-/*#titleAndInfo{width:50%;
-		/*	border:solid;*/
-		/*	font-size: 24px;
-			margin: 0 auto;
-			text-align: center;
-			}*/
 
 #instruction{font-size: 20px;
             color:white;
@@ -24,7 +18,6 @@
             }
 
 #formDiv {width:100%;
-		/*border:solid;*/
 		margin-right: auto;
 		margin-left:auto;}
 
@@ -33,11 +26,8 @@
 		margin:auto;
 		position: relative;
 		top: 54px;}
-/*#inputField{width:40%;
-			border:solid;
-			display:inline-block;
-			float:left;}*/
-.yes{border:solid;}
+
+
 .input {
 
 	width: 26%;
@@ -56,7 +46,6 @@
     border-radius: 13px;
     -moz-border-radius: 13px;
     -webkit-border-radius: 13px;
-    /*border: 1px solid #eeeeee;*/
     border:none;
     padding: 21px;
     margin-bottom: 17px;
@@ -75,7 +64,6 @@
     border-radius: 13px;
     -moz-border-radius: 13px;
     -webkit-border-radius: 13px;
-    /*border: 1px solid #eeeeee;*/
     background-color:rgb(111, 203, 203);
     border:none;
     padding: 21px;
@@ -91,22 +79,19 @@
 #displayBox{width:70%;
 	border-radius: 5px;
 		 	display: flex;
-		 /*	float:left;*/
 		 	flex-flow: row wrap;
   			height: 300px;
   			margin-left:16%;
   			overflow:auto;
-  			/*background-color: #e6ffff*/}
+  		}
 
-#individualTrack{ /*   border: solid;*/
+#individualTrack{ 
     margin-left: 21%;
     width: 300px;
     height: 104px;
     padding: 25px;
-  		/*	border:solid;*/
 }
 
-/*#individualTrack:only-child{margin-left:40%;}*/
 
 .trackInfo{
  background-color: white;
@@ -119,14 +104,12 @@
     height: 81px;
     padding: 10px;
     text-align: center;
-   /* box-shadow: 5px 5px 5px #888888;*/
 }
 
 #img{display: inline-block;
-/*	border:solid;*/
     position: relative;
     right: 10px;
-	/*box-shadow: 0px 5px 5px #888888;*/}
+	}
 
 #songName{font-size: 22px;
 		font-weight: 700;}

@@ -38,9 +38,6 @@ app.controller('data', [ "$scope", "$http", "$timeout", "plStore", function($sco
     obj.title = soundscape.title;
     obj.description = soundscape.description;
     plStore.sendSong(obj);
-    // $scope.soundscape.title = '';
-    // $scope.soundscape.description = '';
-    // $scope.search = '';
     $scope.trackInfo = [];
     $scope.trackInfo.push(obj);
   };
