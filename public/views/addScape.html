@@ -4,7 +4,7 @@
     </div> </a>
 
  <div id="instruction">
- Add your own Soundscape by filling in the information below!
+ Add your own Soundscape below!
  </div>   
 
 <div id="formDiv">
@@ -19,7 +19,7 @@
 
 <input class="input" type="text" ng-model="search" placeholder="Search for A Track"><br/>
 
-<button class="input" ng-click="findTracks(soundscape)">Search Tracks </button> <br/>
+<button class="searchButton" ng-click="findTracks(soundscape)">Search Tracks </button> <br/>
 
 <div id="displayBox" ng-hide="banana">
 
@@ -43,7 +43,7 @@
 
 </section>
 <div id="submit">
-<a href="#/scapes"> <button type="submit" id="endButton" >Add to Soundscape</button> </a>
+<a href="#/scapes"> <button type="submit" class="addButton" >Add to Soundscape</button> </a>
 </form>
 </div>
 

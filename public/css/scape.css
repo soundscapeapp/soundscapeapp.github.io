@@ -5,6 +5,7 @@
 
 #headers{
     width:100%;
+ 
 }
 #results{width:100%;
 		display:flex;
@@ -36,6 +37,10 @@
 	width:100%;
 background-color: rgba(237, 237, 237, 0.5);
 overflow:auto;
+border-radius:6px 6px 0 0;
+text-align: center;
+
+
 
 
 }
@@ -62,11 +67,11 @@ color:white;}
     display: inline-block;
     font-size: 16px;
     position: relative;
-    margin: auto;
     width:200px;
+     margin: auto;
 left:42%;}
 
 h1{text-align: center;}
-iframe{width:100%}
+iframe{width:100%;
+border-radius: 0 0 6px 6px}
 
-#trackDescription{padding:10px;}

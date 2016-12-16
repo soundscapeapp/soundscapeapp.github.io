@@ -8,7 +8,9 @@
 			text-align: center;
 			}*/
 
-#instruction{font-size: 16px;
+#instruction{font-size: 20px;
+            color:white;
+
             width:40%;
             position: relative;
             margin: auto;
@@ -16,9 +18,9 @@
             border:1px #eeeeee;
             top:40px;
             text-align: center;
-            font-family: roboto;
-            font-weight: 400;
-            bottom:20px;
+            font-family: Roboto;
+            font-weight: 500;
+            /*bottom:60px;*/
             }
 
 #formDiv {width:100%;
@@ -35,7 +37,7 @@
 			border:solid;
 			display:inline-block;
 			float:left;}*/
-
+.yes{border:solid;}
 .input {
 
 	width: 26%;
@@ -46,9 +48,42 @@
     padding: 21px;
     margin-bottom: 17px;
     margin-left: 35%;
+    font-size: 16px;
 }
+
+.searchButton{
+    width: 29.5%;
+    border-radius: 13px;
+    -moz-border-radius: 13px;
+    -webkit-border-radius: 13px;
+    /*border: 1px solid #eeeeee;*/
+    border:none;
+    padding: 21px;
+    margin-bottom: 17px;
+    margin-left: 35%;
+    font-size: 16px;
+
+}
+
+.searchButton:hover {
+  background:rgb(87, 117, 186);
+}
+
 	
-		}
+.addButton{
+    width: 29.5%;
+    border-radius: 13px;
+    -moz-border-radius: 13px;
+    -webkit-border-radius: 13px;
+    /*border: 1px solid #eeeeee;*/
+    background-color:rgb(111, 203, 203);
+    border:none;
+    padding: 21px;
+    margin-bottom: 17px;
+    margin-left: 35%;
+    font-size: 16px;
+    
+}
 #textDescription{height:100px;}
 
 

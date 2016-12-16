@@ -48,6 +48,16 @@ app.factory('pinFactory', function(){
 		{
 			id: 'Grand Circus Park',
 			data: [
+
+			{
+				// album: "Number 1's",
+				// artist: "Stevie Wonder",
+				description: "I love this song and I love this place! Together they're like peanut butter and chocolate",
+				image: "https://i.scdn.co/image/a07dee541282f93ff3540d9cdfcbc6ff74c8a775",
+				title: "Looking Up",
+				trackId: "4huOPF1DlqeSkF3PPcUYcJ",
+				trackName: "O-oh Child"
+			},
 			{
 				// album: "Number 1's",
 				// artist: "Stevie Wonder",
@@ -74,7 +84,9 @@ app.factory('pinFactory', function(){
 				title: "Downtown with Diana",
 				trackId: "3SnGymj6ijE2iuUfWxLo1q",
 				trackName: "I'm Coming Out"
-			}]
+			}
+		
+			]
 		},
 		{
 			id: 'Belle Isle Aquarium',
@@ -116,6 +128,15 @@ app.factory('pinFactory', function(){
 		{
 			id: 'Eastern Market',
 			data:[
+			{
+				// album: "Brothers",
+				// artist: "The Black Keys",
+				description: "I love this song from my head tomatoes. If you don't carrot all for it then you've bean missing out on some great beets. Lettuce turnip the sound and yam! We'll be raisin a storm! Anyway this is just a gourd-geous song and I hope you aren't too cornfused!",
+				image: "https://i.scdn.co/image/54e2288aacdd0681eaa22ee09b1d622a9c7ea532",
+				title: " My favorite vegetables",
+				trackId: "62XI1qJo62w0rvTldCHl9P",
+				trackName: "Vegetables"
+			}, 
 			{
 				// album: "Brothers",
 				// artist: "The Black Keys",
