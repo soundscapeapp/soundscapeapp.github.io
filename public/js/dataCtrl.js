@@ -4,7 +4,7 @@ var app = angular.module('soundscape');
 app.controller('data', [ "$scope", "$http", "$timeout", "plStore", function($scope, $http, $timeout, plStore) {
 
 
-  $scope.banana = true;
+  $scope.hideDisplay = true;
 
   // user clicks 'search' button
   $scope.findTracks = function(userInput) {
