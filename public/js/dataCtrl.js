@@ -28,7 +28,7 @@ app.controller('data', [ "$scope", "$http", "$timeout", "plStore", function($sco
       };
     }, 250);
 
-    $scope.banana = false;
+    $scope.hideDisplay = false;
   }
 
   $scope.grabSong = function(info, soundscape) {
